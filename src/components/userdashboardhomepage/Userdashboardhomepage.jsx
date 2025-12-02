@@ -205,7 +205,7 @@ const Userdashboardhomepage = ({route}) => {
                         <span className='clipboard-btn'>
                             <FiLink />
                         </span>
-                        <input type="text" value={userData ? `www.vaultrisegroup.com/user/${userData.username ? userData.username : userData.referral}` : ''} ref={clipRef}/>
+                        <input type="text" value={userData ? `https://www.pionexx-mgt.com/user/${userData.username ? userData.username : userData.referral}` : ''} ref={clipRef}/>
                         <span className={`clipboard-btn ${clipBoard ? <MdOutlineDone /> : ''}` } onClick={()=>{
                             copy()
                             setClipBoard(!clipBoard)
