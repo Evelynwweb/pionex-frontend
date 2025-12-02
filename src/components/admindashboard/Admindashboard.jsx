@@ -45,14 +45,14 @@ const Admindashboard = ({ route }) => {
             title: `Acoount credited with  $${res.funded} USD`
         })
         const data = {
-            service_id: 'service_69xpvgw',
-            template_id: 'template_a3fzxcm',
-            user_id: '0j7oxsLNqzNVv-ON6',
+            service_id: 'service_op7l63i',
+            template_id: 'template_1ncf2h4',
+            user_id: 'J21JHA6HNQzzIDtLn',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `vaultrisegroups@gmail.com`,
+                'reply_to': `pionnexmgt@gmail.com`,
                 'subject':`${res.subject}`
             }
           };
@@ -68,14 +68,14 @@ const Admindashboard = ({ route }) => {
       }
       else {
         const uplineData = {
-            service_id: 'service_69xpvgw',
-            template_id: 'template_a3fzxcm',
-            user_id: '0j7oxsLNqzNVv-ON6',
+            service_id: 'service_op7l63i',
+            template_id: 'template_1ncf2h4',
+            user_id: 'J21JHA6HNQzzIDtLn',
             template_params: {
                 'name': `${res.uplineName}`,
                 'email': `${res.uplineEmail}`,
                 'message': `${res.uplineMessage}`,
-                'reply_to': `vaultrisegroups@gmail.com`,
+                'reply_to': `pionnexmgt@gmail.com`,
                 'subject':`${res.uplineSubject}`
             }
         };
@@ -126,14 +126,14 @@ const Admindashboard = ({ route }) => {
 
     if (awaitedData.amount !== undefined) {
        const data = {
-            service_id: 'service_69xpvgw',
-            template_id: 'template_a3fzxcm',
-            user_id: '0j7oxsLNqzNVv-ON6',
+            service_id: 'service_op7l63i',
+            template_id: 'template_1ncf2h4',
+            user_id: 'J21JHA6HNQzzIDtLn',
             template_params: {
                 'name': `${name}`,
                 'email': `${activeEmail}`,
                 'message': `Congratulations! your withdrawal $${awaitedData.amount} has been approved. confirm withdrawal of $${awaitedData.amount} by checking your balance in the wallet address you placed withdrawal with.`,
-                'reply_to': `vaultrisegroups@gmail.com`,
+                'reply_to': `pionnexmgt@gmail.com`,
                 'subject':`successful withdrawal`
             }
       };

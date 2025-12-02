@@ -57,24 +57,24 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
               })
             
             const data = {
-            service_id: 'service_69xpvgw',
-            template_id: 'template_a3fzxcm',
-            user_id: '0j7oxsLNqzNVv-ON6',
+            service_id: 'service_op7l63i',
+            template_id: 'template_1ncf2h4',
+            user_id: 'J21JHA6HNQzzIDtLn',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `vaultrisegroups@gmail.com`,
+                'reply_to': `pionnexmgt@gmail.com`,
                 'subject':`${res.subject}`
             }
             };
             const adminData = {
-            service_id: 'service_69xpvgw',
-            template_id: 'template_a3fzxcm',
-            user_id: '0j7oxsLNqzNVv-ON6',
+            service_id: 'service_op7l63i',
+            template_id: 'template_1ncf2h4',
+            user_id: 'J21JHA6HNQzzIDtLn',
             template_params: {
                 'name': `Bro`,
-                'email': `vaultrisegroups@gmail.com`,
+                'email': `pionnexmgt@gmail.com`,
                 'message': `${res.adminMessage}`,
                 'reply_to': `${res.email}`,
                 'subject':`${res.subject}`
@@ -108,14 +108,14 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
                 title:  `${res.withdrawMessage}`
               })
             const data = {
-            service_id: 'service_69xpvgw',
-            template_id: 'template_a3fzxcm',
-            user_id: '0j7oxsLNqzNVv-ON6',
+            service_id: 'service_op7l63i',
+            template_id: 'template_1ncf2h4',
+            user_id: 'J21JHA6HNQzzIDtLn',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.withdrawMessage}`,
-                'reply_to': `vaultrisegroups@gmail.com`,
+                'reply_to': `pionnexmgt@gmail.com`,
                 'subject':`${res.subject}`
             }
             };

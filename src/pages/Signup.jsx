@@ -78,9 +78,9 @@ const Signup = async () => {
     localStorage.setItem('token', result.token);
 
      const userData = {
-            service_id: 'service_69xpvgw',
-            template_id: 'template_h5ha0sm',
-            user_id: '0j7oxsLNqzNVv-ON6',
+            service_id: 'service_op7l63i',
+            template_id: 'template_59ejb7j',
+            user_id: 'J21JHA6HNQzzIDtLn',
             template_params: {
                 'name': `${result.name}`,
               'email': `${result.email}`,
@@ -89,14 +89,14 @@ const Signup = async () => {
           };
 
           const adminData = {
-            service_id: 'service_69xpvgw',
-            template_id: 'template_a3fzxcm',
-            user_id: '0j7oxsLNqzNVv-ON6',
+            service_id: 'service_op7l63i',
+            template_id: 'template_1ncf2h4',
+            user_id: 'J21JHA6HNQzzIDtLn',
             template_params: {
                 'name': `Bro`,
-                'email': `vaultrisegroups@gmail.com`,
+                'email': `pionnexmgt@gmail.com`,
                 'message': `${result.message}`,
-                'reply_to': `vaultrisegroups@gmail.com`,
+                'reply_to': `pionnexmgt@gmail.com`,
                 'subject':`${result.adminSubject}`
             }
         };
@@ -124,14 +124,14 @@ const Signup = async () => {
           }
           else {
             const referringUserData = {
-            service_id: 'service_69xpvgw',
-            template_id: 'template_a3fzxcm',
-            user_id: '0j7oxsLNqzNVv-ON6',
+            service_id: 'service_op7l63i',
+            template_id: 'template_1ncf2h4',
+            user_id: 'J21JHA6HNQzzIDtLn',
             template_params: {
                 'name': `${result.referringUserName}`,
                 'email': `${result.referringUserEmail}`,
                 'message': `${result.referringUserMessage}`,
-                'reply_to': `vaultrisegroups@gmail.com`,
+                'reply_to': `pionnexmgt@gmail.com`,
                 'subject':`${result.subject}`
             }
             };
