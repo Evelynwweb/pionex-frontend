@@ -177,7 +177,7 @@ const Signup = async () => {
     
     localStorage.removeItem('referedUser');
 
-    navigate('/dashboard');
+    navigate('/verify');
   } catch (error) {
     setLoader(false);
     console.error("Error during signup:", error);
