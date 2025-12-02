@@ -29,7 +29,7 @@ const Header = () => {
         transition={{duration:0.65}}
     >
         <div className="logo-container">
-            <img src="/vaultrise-removebg-preview.png" alt="company_logo" className='logo' onClick={()=>{
+            <img src="/pionexlogo3.png" alt="company_logo" className='logo' onClick={()=>{
                 navigate('/')
             }}/>
         </div>

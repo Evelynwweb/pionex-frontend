@@ -12,9 +12,9 @@ const Copytrade = () => {
                 <span className="header-line"></span>
                 <h2 >what we do at</h2>
                 </div>
-                <h1 data-aos="fade-up" className='copytrade-header'>vaultrisegroup</h1>
+                <h1 data-aos="fade-up" className='copytrade-header'>pionexx-mgt</h1>
                 <p data-aos="fade-up">
-                At vaultrisegroup, we provide accurate forex analysis to help investors maximize profits through copy trading. Using MT4 and MT5, our experts analyze the markets with technical and fundamental strategies, identifying high-probability trades. We share real-time signals, market updates, and risk assessments directly through our Telegram channel, allowing investors to copy top-performing trades effortlessly.
+                At pionexx-mgt, we provide accurate forex analysis to help investors maximize profits through copy trading. Using MT4 and MT5, our experts analyze the markets with technical and fundamental strategies, identifying high-probability trades. We share real-time signals, market updates, and risk assessments directly through our Telegram channel, allowing investors to copy top-performing trades effortlessly.
                   </p>
                   <button
                     className="launch-btn"
@@ -23,7 +23,7 @@ const Copytrade = () => {
                     transition={{ duration: 0.65, delay: 0.6 }}
                     onClick={() => {
                         const link = document.createElement("a");
-                        link.href = "/vaultrisegroup_Certificate.pdf";
+                        link.href = "/pionexx-mgt_Certificate.pdf";
                         link.download = "certificate.pdf";
                         document.body.appendChild(link);
                         link.click();
@@ -39,7 +39,7 @@ const Copytrade = () => {
 
         </div>
         <div className="about-img-container" data-aos="fade-up">
-            <img src="/stockedgelogo11.png" className='forex-img '/>
+            <img src="/pionexlogo2.png" className='forex-img '/>
             </div>
         </div>
     </div>

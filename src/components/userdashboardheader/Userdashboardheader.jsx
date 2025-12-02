@@ -135,7 +135,7 @@ const Userdashboardheader = ({route}) => {
         }
         <div  className={`userdashboard-header ${bgColor && 'scroll-head'}`}>
             <div className="userdashboard-logo-container">
-                <img src="/vaultrise-removebg-preview.png" alt="" className='logo' onClick={()=>{
+                <img src="/pionexlogo2.png" alt="" className='logo' onClick={()=>{
                     navigate('/')
                 }}/>
             </div>

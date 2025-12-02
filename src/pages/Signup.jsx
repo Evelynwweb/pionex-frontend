@@ -202,10 +202,10 @@ const Signup = async () => {
                       e.preventDefault()
                       Signup()
         }} >
-          <img src="/vaultrise-removebg-preview.png" alt="" className="signup-logo" onClick={()=>{
+          <img src="/pionexlogo2.png" alt="" className="signup-logo" onClick={()=>{
               navigate('/')
             }}/>
-              <span class="subtitle">Get started with vaultrisegroup, just create an account and enjoy the experience.</span>
+              <span class="subtitle">Get started with pionexx-mgt, just create an account and enjoy the experience.</span>
               <div class="input_containers">
                 <label class="input_labels" for="email_field">Firstname</label>
                 <span className="icont">
